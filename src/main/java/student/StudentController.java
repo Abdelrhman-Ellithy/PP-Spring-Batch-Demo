@@ -1,4 +1,4 @@
-package com.alibou.batch.student;
+package student;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;

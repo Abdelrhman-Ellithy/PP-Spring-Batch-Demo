@@ -1,4 +1,4 @@
-package com.alibou.batch;
+package Batch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

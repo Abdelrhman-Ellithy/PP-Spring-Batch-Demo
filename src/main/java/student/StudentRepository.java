@@ -1,4 +1,4 @@
-package com.alibou.batch.student;
+package student;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

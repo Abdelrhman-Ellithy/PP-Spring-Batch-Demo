@@ -1,7 +1,7 @@
-package com.alibou.batch.config;
+package config;
 
-import com.alibou.batch.student.Student;
-import com.alibou.batch.student.StudentRepository;
+import student.Student;
+import student.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

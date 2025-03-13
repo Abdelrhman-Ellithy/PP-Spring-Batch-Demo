@@ -1,6 +1,6 @@
-package com.alibou.batch.config;
+package config;
 
-import com.alibou.batch.student.Student;
+import student.Student;
 import org.springframework.batch.item.ItemProcessor;
 
 public class StudentProcessor implements ItemProcessor<Student,Student> {
