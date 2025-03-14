@@ -1,6 +1,6 @@
-package config;
+package com.batch.student.config;
 
-import student.Student;
+import com.batch.student.student.Student;
 import org.springframework.batch.item.ItemProcessor;
 
 public class StudentProcessor implements ItemProcessor<Student,Student> {

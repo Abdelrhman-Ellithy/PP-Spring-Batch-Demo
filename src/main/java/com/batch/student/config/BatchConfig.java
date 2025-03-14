@@ -1,7 +1,7 @@
-package config;
+package com.batch.student.config;
 
-import student.Student;
-import student.StudentRepository;
+import com.batch.student.student.Student;
+import com.batch.student.student.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

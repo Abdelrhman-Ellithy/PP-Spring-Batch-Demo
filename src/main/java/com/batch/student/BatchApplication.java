@@ -1,4 +1,4 @@
-package Batch;
+package com.batch.student;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

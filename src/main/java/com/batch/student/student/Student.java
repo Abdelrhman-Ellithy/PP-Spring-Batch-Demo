@@ -1,4 +1,4 @@
-package student;
+package com.batch.student.student;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

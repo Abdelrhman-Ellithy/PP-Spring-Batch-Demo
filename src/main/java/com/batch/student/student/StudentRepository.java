@@ -1,4 +1,4 @@
-package student;
+package com.batch.student.student;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
