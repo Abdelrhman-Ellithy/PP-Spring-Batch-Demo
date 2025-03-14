@@ -1,8 +1,6 @@
 package com.batch.student.student;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,5 +14,7 @@ public class Student {
     private Integer id;
     private String firstname;
     private String lastname;
+    private String fullName;
+    private String status;
     private int age;
 }
