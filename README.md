@@ -1,6 +1,6 @@
 # Spring Batch demo for Parallel Programming Course 
 
-Welcome to the Spring Batch demo! This project highlights an innovative approach to handling file imports through batch processing.
+Welcome to the Parallel Programming Course  which is Spring Batch demo! This project highlights an innovative approach to handling file imports through batch processing.
 ---
 
 ## 📚 Table of Contents

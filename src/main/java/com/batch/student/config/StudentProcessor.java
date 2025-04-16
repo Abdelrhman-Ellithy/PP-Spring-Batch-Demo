@@ -11,23 +11,13 @@ public class StudentProcessor implements ItemProcessor<Student,Student> {
     public Student process(Student student) {
         if (student.getAge() < 18) {
             log.error("Age for student: {}", student);
-            return null; // skip < 18
+            return null;
         }
-
-        // Make Firstname and Lastname UpperCase
         student.setFirstname(student.getFirstname().toUpperCase());
         student.setLastname(student.getLastname().toUpperCase());
-
-        // make fullName
         String fullName = student.getFirstname() + " " + student.getLastname();
         student.setFullName(fullName);
-
-        // add status
-        if (student.getAge() >= 18) {
-            student.setStatus("Adult");
-        } else {
-            student.setStatus("Minor");
-        }
+        student.setStatus("Adult");
         return student;
     }
 }
